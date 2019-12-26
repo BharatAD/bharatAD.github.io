@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ Bharat Atul Desai }}</title>
+			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
@@ -15,22 +15,13 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			<div class="blurb">
-      
-        <h1>Hi there, I'm Bharat!</h1>
-				<p><strike> Graphic Design is my passion</strike></p>
-				<p>I am a data science geek, with an avid interest in applied artificial intelligence in financial risk management as well as cybersecurity. </p>
-        <p>Most of my day is spent at <a href="https://impactcredit.solutions/">Impact Credit Solutions</a> where I build statistical models to score various aspects of an institutions risk! </p> 
-				<p>Otherwise equally serious iterests include investing in StONkS, getting better at Texas Hold'em and mixing cocktails! <a href="/about">Read more about my life...</a></p> 
-				<p>Currently reading: Principles For Navigating Big Debt Crises by Ray Dalio, and One hundred years of solitude by Gabriel Marquez</p>
-		  
-      </div><!-- /.blurb -->
+			{{ content }}
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:bharatatuldesai@gmail.com"> Email</a></li>
 	        		<li><a href="https://github.com/bharatAD"> Github</a></li>
-              <li><a href="https://www.linkedin.com/in/bharat-atul-desai> LinkedIn</a></li>
+              			<li><a href="https://www.linkedin.com/in/bharat-atul-desai> LinkedIn</a></li>
 				</ul>
 			</footer>
 		</body>
